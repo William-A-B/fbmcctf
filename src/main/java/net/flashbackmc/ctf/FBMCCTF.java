@@ -38,18 +38,28 @@ public class FBMCCTF extends JavaPlugin {
 		// TODO Auto-generated constructor stub
 	}
 	
+	/**
+	 * Startup routine for plugin. Runs at server startup
+	 */
 	@Override
 	public void onEnable() {
 		Bukkit.getLogger().info("[FBMCCTF] The plugin has been successfully enabled!");
 		
+		// Setup config.yml
 		setupConfig();
 		
+		// Register all commands
 		registerCommands();
+		// Register all event listeners
 		registerListeners();
+		
+		// Assign a plugin variable to this class
 		plugin = this;
 	}
 	
-	
+	/**
+	 * Runs at server disable
+	 */
 	@Override
 	public void onDisable() {
 		Bukkit.getLogger().info("[FBMCCTF] The plugin has been successfully disabled!");
@@ -118,6 +128,10 @@ public class FBMCCTF extends JavaPlugin {
 		FBMCCTF.ctfPlayers.remove(player);
 	}
 	
+	/**
+	 * Selects the gamemode ingame - soup or ctf
+	 * @param modeToSet indicates the gamemode to select
+	 */
 	public static void setMode(int modeToSet) {
 		mode = modeToSet;
 	}
