@@ -1,0 +1,5 @@
+# ignore ALL .jar files
+*.jar
+
+# ignore all files in the target directory
+target/
