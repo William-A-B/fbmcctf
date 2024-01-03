@@ -20,9 +20,11 @@ The Eclispe project files are included to enable easy setup for your own persona
 
 ### Gamemodes
 **Capture the Flag**
+
 Standard mode, as described above, set number of steak per kit use, which heals 4 hearts instantly upon use
 
 **Soup PvP**
+
 Additional custom mode, implements all the classic CTF kits, however replaces steak with soup which heals 3 hears upon use, and allows the CTF kits to be played in a free for all PvP environment.
 
 ### CTF Kits
