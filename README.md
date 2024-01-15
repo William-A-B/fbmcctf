@@ -54,6 +54,7 @@ Commands for using the plugin can be found with descriptions in the `plugin.yml`
 ## How to Compile
 This plugin uses Apache Maven to build the source code using the required dependencies. 
 You will need to have JDK 1.8 and Maven 3.x
+
 In the top directory (Containing the `pom.xml`), run `mvn clean install`.
 Maven should generate a jar file which will be located within `./target`
 
