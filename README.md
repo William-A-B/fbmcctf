@@ -42,8 +42,8 @@ The full list of the kits are displayed below, all kits with a tick are implemen
 - [ ] Elf
 - [ ] Engineer
 - [ ] Mage
-- [ ] Necro (WIP)
-- [ ] Ninja
+- [ ] Necro
+- [ ] Ninja (WIP)
 - [ ] Pyro
 - [ ] Scout
 - [ ] Fashionista
