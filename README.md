@@ -59,3 +59,12 @@ In the top directory (Containing the `pom.xml`), run `mvn clean install`.
 Maven should generate a jar file which will be located within `./target`
 
 Place this jar file within the `plugins` folder and then startup your server, the plugin should then work
+
+
+# TODO
+## Next Features
+- Allow ninja to heal by sneaking - copy medic heal mechanic, but make it only work when sneaking
+## Bugs to Fix
+- When switching from a class with armour to one without, the armour will remain equipped. e.g. switching from medic to ninja, the ninja will still have golden armour
+- Make Ninja flashbomb not affect the thrower
+- Sometimes soup doesn't use itself up.
